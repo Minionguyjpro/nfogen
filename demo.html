@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<!-- InstanceBegin template="../../web-data/Templates/main.htt" -->
+
+		<head>
+			<meta name="generator" content="Adobe GoLive" />
+			<meta http-equiv="content-type" content="text/html;charset=windows-1251" />
+			<title>NFO Generator</title>
+			<!-- #BeginHeadLocked "" -->
+				<link href="css/basic.css" rel="stylesheet" type="text/css" media="all" />
+				<style>
+	div.caption {
+text-align: center;
+font-size:24px;
+color:#DC7105;
+font-weight:800;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+div {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px
+}
+.indented {
+position: absolute;
+left: 380px}
+a {
+text-decoration:none;
+color:#CCCCCC;
+}
+</style>
+			<!-- #EndHeadLocked -->
+		</head>
+
+		<body>
+			<div style="border-style: dashed; border-width:1px; width:750px; padding: 25px; margin:50px">
+				<div align="center">
+					<h1>NFO Generator</h1>
+					<p>| <a href="index.html">Home</a> | <a href="demo.html">NFO Generator Demo</a> | <a href="http://sourceforge.net/projects/nfogen/">Download</a> |</p>
+				</div>
+				<!-- InstanceBeginEditable name="neratorprojectis" -->
+					<div>
+						<p>Instructions:</p>
+						<ul>
+							<li>It is recommended that you fill in as many items as possible.<br>
+							</li>
+							<li>Try to find as much information as possible, regarding your release.<br>
+							</li>
+							<li>This is the new English version of the generator.</li>
+						</ul>
+					</div>
+					<form action="gen.php" method="post" enctype="multipart/form-data" name="form1">
+						<div style="text-indent:70px">
+							<p>*Team name:  <input class="indented" type="text" name="team"  maxlength="60" /></p>
+							<p>*Release Support: <input class="indented" name="support" type="text" id="support" maxlength="60"></p>
+							<p>*Release name: <input class="indented" name="torrentname" type="text" id="torrentname" maxlength="60"></p>
+							<p>*Size: <input class="indented" name="torrentsize" type="text" id="torrentsize" maxlength="10"></p>
+							<p>Source: <input class="indented" name="torrenttracker" type="text" id="torrenttracker"><br>(Please specify the source of your content)</p>
+							<p>Link: <input class="indented" name="torrentlink" type="text" id="torrentlink"></p>
+							<p>Description:<br>
+								<textarea name="description" cols="50" rows="10" id="description" style="position: relative; left: 100px"></textarea></p>
+							<br>
+							<table width="396" border="0">
+								<tr>
+									<td width="150" align="right"><input type="submit" name="Submit" value="Send"></td>
+									<td width="166" align="right"><input type="reset" name="Submit2" value="Reset"></td>
+								</tr>
+							</table>
+						</div>
+					</form>
+					<div style="font-size:12px">
+				<!-- InstanceEndEditable -->
+				<div align="center">
+					<p><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=142370&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></a></p>
+				</div>
+			</div>
+		</body>
+
+	<!-- InstanceEnd -->
+
+</html>

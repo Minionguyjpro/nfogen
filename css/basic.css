@@ -1,0 +1,14 @@
+body { color: black; background-color: #d5e7cc; }
+
+p {}
+
+td {}
+
+a:link { color: blue }
+
+a:visited { color: purple }
+
+a:hover { color: purple ; background-color: #b2dde8; }
+
+a:active { color: red }
+div:container { width: 80%; height: 80%; margin: 12px; border-style: dashed; border-width: 2px; }
